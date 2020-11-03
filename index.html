@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <title>Membership Fee</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1 class="display-3">Membership Fee Payment</h1>
+        </header>
+        <div class="border border-light card-header col-md-5" id="users">
+            <div class="card-header d-flex flex-row">
+                <h1 class="text-center display-4">Users</h1>
+            </div>
+            <div class="card-body text-center">
+                <ul class="list-group list-group-flush" id="usersList">
+                </ul>
+                <button type="button" class="btn btn-outline-dark" id="btnDeselectUser">Deselect User</button>
+            </div>
+        </div>
+        <div class="border border-light card-header col-md-7" id="data">
+            <div class="card-header d-flex flex-row">
+                <h1 class="text-center display-4">User's Payments</h1>
+            </div>
+            <div class="card-body">
+                <div class="m-2" id="groupButtons">
+                    <button type="button" class="btn btn-secondary" id="btnDefault">Default</button>
+                    <button type="button" class="btn btn-outline-secondary" id="btnYear">Group by year</button>
+                </div>
+                <ul class="list-group list-group-flush" id="paymentList">
+                </ul>
+                <div id="controls">
+                    <div class="m-2" id="input">
+                        <input type="date" id="date">
+                        <input type="number" id="amount" placeholder="pl.: 3000">
+                    </div>
+                    <div class="m-2" id="ardButtons">
+                        <div>
+                            <button type="button" class="btn btn-outline-primary" id="btnAddPayment">Add
+                                Payment</button>
+                            <button type="button" class="btn btn-outline-danger" id="btnRemovePayment">Remove
+                                Payment</button>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark" id="btnDeselectPayment">Deselect
+                            Payment</button>
+                    </div>
+                </div>
+                <div id="alerts">
+                    <p class="alert">a</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

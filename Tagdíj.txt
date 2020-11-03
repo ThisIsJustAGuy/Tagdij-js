@@ -1,0 +1,7 @@
+Készítsen egy weblapot JavaScript segítségével egyesületi tagdíjak kezelésére.
+A tagokról a nevüket és egy azonosítót (vonalkód) kell nyilvántartani. A tagok listája állandó.
+Egy egyesületi tag kiválasztása után rögzíteni lehessen a havi tagdíj befizetését (időpont év,hó,nap; összeg) illetve lehessen törölni a téves befizetéseket. 
+Meg lehessen nézni a tagok befizetéseit évenkénti bontásban és jelezze a program, hogy melyik hónapra nem történt befizetés. Egy hónapban több befizetés is történhet ilyenkor  a havi befizetések összeadódnak.
+Legyenek demó adatok legalább 3 tag és tagonként min. annyi befizetés, hogy a weblap működése megnézhető legyen.
+
+Feltölteni a weblapot tartalmazó mappát kell tömörítve. Fájlnév: Tagdíj_neved.[zip,rar]

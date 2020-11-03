@@ -1,0 +1,67 @@
+body{
+    background-color:#f0f0f0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-left: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    display: flex;
+    cursor: default;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.container {
+    margin: auto;
+    padding: 0px;
+}
+.flex-grow {
+    flex-grow: 1;
+}
+
+.line-throught{
+    text-decoration: line-through;
+}
+.active{
+    background-color: #428BCA;
+}
+.alert{
+    color: red;
+    visibility: hidden;
+}
+.selectUser{
+    color: gray;
+    font-size: x-large;
+}
+.year{
+    font-size: 20px;
+    font-weight: bold;
+}
+#usersList li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+#paymentList li:hover.payment{
+    cursor: pointer;
+    background-color: lightgray;
+}
+#users{
+    height: 100%;
+    float: left;
+}
+#data{
+    height: 100%;
+    float: right;
+}
+#controls{
+    text-align: left;
+}
+#ardButtons{
+    display: flex;
+    justify-content: space-between;
+}
+#alerts{
+    text-align: center;
+}
